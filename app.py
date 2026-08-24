@@ -46,5 +46,7 @@ app.layout = dbc.Container(
     className="px-4",
 )
 
+server = app.server
+
 if __name__ == "__main__":
     app.run(debug=True)
